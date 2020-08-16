@@ -1,0 +1,77 @@
+html{background: #f5f5f5; font-family: Arial, Helvetica, sans-serif;}
+
+body{width:1024px; background: #fff;   margin: auto;}
+.sb-kiri{
+    float:left;
+    width:22%;
+    max-width: 400px;
+    background: red;
+    display: block;
+  
+    
+
+}
+header{
+    background: #000055;
+    padding: 20px;
+}
+nav{
+    color: #eee;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+nav a{
+    padding:10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+
+    text-decoration: none;
+}
+.logo{
+    color:#eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    width: fit-content;
+    margin: auto;
+    
+}
+aside{
+    float: right;
+    padding: 16px;
+    width: 25%;
+    margin-right: 30px;
+    color: #282828;
+    background: #fff;
+}
+
+article{
+    
+    width:55%;
+    line-height: 24px;
+    font-size: 16px;
+}
+.konten{
+    padding: 30px;
+    width: 100%;
+    height: auto;
+   
+}
+
+footer{
+    background: #000;
+    color:#ffffff;
+    text-align: center;
+    padding: 40px 0px;
+}
+.populer, .terkini{
+    background: #eee;
+}
+.populer h4, .terkini h4{
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    padding:5px 16px;
+}

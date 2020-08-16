@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+    {{- partial "head.html" . -}}
+    <style>
+       
+.content{
+    height: 300px;
+}
+
+.sidebar{height:300px;}
+.footer{background:black; padding: 30px;}
+    </style>   
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 ">{{- partial "header.html" . -}}</div>
+            </div>
+        <div class="row">
+           
+            <div class="col-md-9 col-xs-12 content"> {{- block "main" . }}{{- end }} </div>
+            <div class="col-md-3 col-xs-12 sidebar">  {{- partial "sidebar.html" . -}} </div>
+           
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 footer"> {{- partial "footer.html" . -}} </div>
+            </div>
+        </div>
+        
+        
+    </body>
+    
+</html>
